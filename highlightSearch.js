@@ -11,7 +11,7 @@ function highlight() {
         if (searchText.length > 2) {
             let searchExp = new RegExp(searchText, 'i');
             console.log(input);
-            return input.replace(searchExp, `<span class='pn-highlighted'>' + searchText + '</span>`);
+            return input.replace(searchExp, "<span class='pn-highlighted'>" + searchText + "</span>");
         } else {
             return input;
         }
